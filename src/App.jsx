@@ -14,8 +14,9 @@ import './App.css'
 
 function App() {
   return (
-    <div className="App"> {/* ← This div fixes blank page on Vercel */}
+    <div className="App">
       <Navbar />
+      
       <Routes>
         <Route
           path="/"
@@ -32,9 +33,10 @@ function App() {
         />
         <Route path="/project/:id" element={<ViewProject />} />
       </Routes>
+
       <Footer />
     </div>
   )
 }
 
-export default App
+export default App;
