@@ -74,7 +74,7 @@ export default function Hero() {
               Download CV
             </a>
 
-            <a href="#contact" className="btn-more">
+            <a href="#about" className="btn-more">
               More About Me
             </a>
           </div>
